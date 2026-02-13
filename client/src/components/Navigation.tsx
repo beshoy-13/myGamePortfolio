@@ -15,7 +15,7 @@ export default function Navigation() {
           className="border-4 border-black px-5 py-3 font-bold text-sm cursor-pointer hover:bg-gray-100 transition bg-white shadow-brutalist"
           style={{ fontFamily: 'Space Grotesk' }}
         >
-          ▢ BESHOY.exe
+          BESHOY.exe
         </button>
       </div>
 

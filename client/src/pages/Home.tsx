@@ -150,12 +150,14 @@ export default function Home() {
 
           {/* Buttons */}
           <div className="flex gap-6 justify-center flex-wrap">
-            <button className="bg-black text-white border-3 border-black px-8 py-3 font-bold shadow-brutalist hover:bg-gray-800 transition">
+            {/* <button className="bg-black text-white border-3 border-black px-8 py-3 font-bold shadow-brutalist hover:bg-gray-800 transition">
               VIEW DATABASE
-            </button>
-            <button className="bg-white text-black border-3 border-black px-8 py-3 font-bold shadow-brutalist hover:bg-gray-100 transition">
-              DOWNLOAD CV
-            </button>
+            </button> */}
+            <a href="/BeshoyFomailCV.pdf" target="_blank">
+              <button className="bg-white text-black border-3 border-black px-8 py-3 font-bold shadow-brutalist hover:bg-gray-100 transition">
+                DOWNLOAD CV
+              </button>
+            </a>
           </div>
         </div>
       </section>
@@ -384,7 +386,9 @@ export default function Home() {
                 <div className="space-y-4">
                   <div className="flex items-center gap-4 hover:translate-x-2 transition-transform duration-200">
                     <div className="w-10 h-10 bg-black flex items-center justify-center border-2 border-black flex-shrink-0">
-                      <span className="text-white text-lg">✉</span>
+                      <span className="w-5 h-5f">
+                        <img src="/images/mail.png" alt="mail" />
+                      </span>
                     </div>
                     <div>
                       <p className="font-bold text-sm">beshoy.f.labib@outlook.com</p>
@@ -517,10 +521,12 @@ export default function Home() {
             <div>
               <h4 className="font-bold mb-4 text-sm tracking-wider">SOCIALS</h4>
               <div className="flex gap-4 text-lg">
-                <a href="#" className="hover:scale-125 transition-transform duration-200 hover:text-blue-400">💻</a>
-                <a href="#" className="hover:scale-125 transition-transform duration-200 hover:text-pink-400">📷</a>
-                <a href="#" className="hover:scale-125 transition-transform duration-200 hover:text-blue-300">🔗</a>
-                <a href="#" className="hover:scale-125 transition-transform duration-200 hover:text-blue-500">in</a>
+                <a href="https://github.com/beshoy-13" className="hover:scale-125 transition-transform duration-200 hover:text-blue-400">
+                  <img src="/images/github.png" alt="github" className="w-7 h-7" />
+                </a>
+                <a href="https://www.linkedin.com/in/beshoy-fomail" className="hover:scale-125 transition-transform duration-200 hover:text-blue-500">
+                  <img src="/images/linkedin.png" alt="LinkedIn" className="w-7 h-7" />
+                </a>
               </div>
             </div>
           </div>
