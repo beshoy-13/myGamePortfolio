@@ -170,9 +170,87 @@ export default function Home() {
             animation: 'marquee 30s linear infinite',
             width: 'fit-content'
           }}>
-            <span className="font-bold text-lg whitespace-nowrap">OPEN FOR WORK /// FRONTEND DEVELOPMENT /// UI/UX DESIGN /// REACT EXPERT /// </span>
-            <span className="font-bold text-lg whitespace-nowrap">OPEN FOR WORK /// FRONTEND DEVELOPMENT /// UI/UX DESIGN /// REACT EXPERT /// </span>
-            <span className="font-bold text-lg whitespace-nowrap">OPEN FOR WORK /// FRONTEND DEVELOPMENT /// UI/UX DESIGN /// REACT EXPERT /// </span>
+              <span className="font-bold text-lg whitespace-nowrap flex items-center gap-3">
+                <span className="ml-15">OPEN FOR WORK</span>
+                <img 
+                  src="/images/pacman.png" 
+                  alt="separator"
+                  className="w-5 h-5 inline-block"
+                />
+                <span>FRONTEND DEVELOPMENT</span>
+                <img 
+                  src="/images/pacman.png" 
+                  alt="separator"
+                  className="w-5 h-5 inline-block"
+                />
+                <span>UI/UX DESIGN</span>
+                <img 
+                  src="/images/pacman.png" 
+                  alt="separator"
+                  className="w-5 h-5 inline-block"
+                />
+                <span>REACT EXPERT</span>
+                <img 
+                  src="/images/pacman.png" 
+                  alt="separator"
+                  className="w-5 h-5 inline-block"
+                />
+              </span>
+
+              <span className="font-bold text-lg whitespace-nowrap flex items-center gap-3">
+                <span className="ml-15">OPEN FOR WORK</span>
+                <img 
+                  src="/images/pacman.png" 
+                  alt="separator"
+                  className="w-5 h-5 inline-block"
+                />
+                <span>FRONTEND DEVELOPMENT</span>
+                <img 
+                  src="/images/pacman.png" 
+                  alt="separator"
+                  className="w-5 h-5 inline-block"
+                />
+                <span>UI/UX DESIGN</span>
+                <img 
+                  src="/images/pacman.png" 
+                  alt="separator"
+                  className="w-5 h-5 inline-block"
+                />
+                <span>REACT EXPERT</span>
+                <img 
+                  src="/images/pacman.png" 
+                  alt="separator"
+                  className="w-5 h-5 inline-block"
+                />
+              </span>
+
+              <span className="font-bold text-lg whitespace-nowrap flex items-center gap-3">
+                <span className="ml-15">OPEN FOR WORK</span>
+                <img 
+                  src="/images/pacman.png" 
+                  alt="separator"
+                  className="w-5 h-5 inline-block"
+                />
+                <span>FRONTEND DEVELOPMENT</span>
+                <img 
+                  src="/images/pacman.png" 
+                  alt="separator"
+                  className="w-5 h-5 inline-block"
+                />
+                <span>UI/UX DESIGN</span>
+                <img 
+                  src="/images/pacman.png" 
+                  alt="separator"
+                  className="w-5 h-5 inline-block"
+                />
+                <span>REACT EXPERT</span>
+                <img 
+                  src="/images/pacman.png" 
+                  alt="separator"
+                  className="w-5 h-5 inline-block mr-350"
+                />
+              </span>
+
           </div>
           <style>{`
             @keyframes marquee {
